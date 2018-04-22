@@ -37,4 +37,6 @@ endif()
 
 add_executable(format_test format_test.cpp)
 target_link_libraries(format_test ${NBT_NAME})
-add_test(format_test format_test)
+
+# FIXME: this is not a real test and is broken because it cannot be found.
+# add_test(format_test format_test)
